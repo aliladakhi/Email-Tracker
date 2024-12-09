@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tracking Results</title>
+</head>
+<body>
+    <h1>Tracking Results</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>IP Address</th>
+                <th>Device</th>
+                <th>Browser</th>
+                <th>Country</th>
+                <th>City</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% tracks.forEach(function(track) { %>
+                <tr>
+                    <td><%= track.ipAddress %></td>
+                    <td><%= track.device %></td>
+                    <td><%= track.browser %></td>
+                    <td><%= track.country %></td>
+                    <td><%= track.city %></td>
+                    <td><%= track.timestamp %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>
