@@ -110,6 +110,9 @@ Replace `http://your-public-domain` with your server’s public domain or IP add
 
 ---
 
+![Alt Text](./Screenshot%202024-12-09%20195519.png)
+
+
 ## Challenges Encountered
 
 ### 1. **Tracking Pixel (`img src`) Issues**
